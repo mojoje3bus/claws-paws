@@ -1,0 +1,130 @@
+body{
+color: #666666;
+background-image: linear-gradient(to top, #FFFFFF, #FF8000);
+background-repeat: no-repeat;
+font-family: Arial, Helvetica;
+}
+
+header{
+background-color: #FF8000;
+color: #FFFFFF;
+background-position:right;
+height: 60px;
+text-align:center;
+padding-top:15px;
+}
+
+#wrapper{
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width:960px;
+	max-width:2048px;
+	box-shadow: 3px 3px 3px 3px #333333;
+}
+
+.pet {
+	color: #ff8000;
+	font-weight: bold;
+}
+
+nav{
+color: #ff8000;
+font-weight: bold;
+padding: 1.5em;
+font-size:120%;
+float: left;
+width: 160px;
+position: fixed;
+}
+
+nav ul{
+	color: #ff8000;
+	margin:0;
+	padding:10px;
+	font-size: 1.2em;
+}
+
+nav a{
+	color: #ff8000;
+	text-decoration: none;
+}
+
+h1{
+	color: #ffffff;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: Georgia, Times New Roman;
+}
+
+h2{
+	color: #ff8000;
+	font-family: Georgia, Times New Roman;
+	text-shadow:1px 1px #CCCCCC;
+}
+
+h3{
+	font-family: Georgia, Times New Roman;
+	color: #ff8000;
+}
+
+h3 a{
+	color: #ff8000;
+}
+
+
+contact id{
+	font-size: 90%;
+}
+
+main{
+	padding-top:1px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	display:block;
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	overflow: auto;
+}
+
+section{
+	float:left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, Times New Roman;
+	padding:2em;
+	margin-left: 190px;
+}
+
+footer a {
+	color: #ff8000;
+}
+
+form{
+	display: flex; 
+    flex-flow: column nowrap; }  
+	
+table { 
+	width: 300px; margin: auto; }
+	table, th, td { border-style: none; }
+	caption { font-size: 2em; font-weight: bold; }
+	thead { background-color: #eaeaea; }
+	tbody { font-family: Georgia, Times New Roman; font-size: 100%; }
+	tbody td { border-bottom: 1px #000033 solid; padding-left: 25px; }
+#main{
+	background-image: url(logo.jpg);
+	background-repeat: repeat-x;
+    background-size:50% 125%; 
+	height: 300px;
+	margin-left: 100px;
+}
+

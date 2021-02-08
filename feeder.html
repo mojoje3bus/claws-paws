@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Claws & Paws :: Feeder Form</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="clawspaws.css"/>
+</head>
+<body>
+<div id="wrapper">
+<header>
+  <h1>Claws & Paws Pet Store</h1>
+</header>
+<nav class = "navbar navbar-default navbar-static-top" role = "navigation">
+   
+   <div class = "navbar-header">
+      <a class = "navbar-brand" href = "index.html">Claws & Paws</a>
+   </div>
+   
+   <div>
+      <ul class = "nav navbar-nav">
+         
+   	 <li class = "dropdown">
+            <a href = "animals.html" class = "dropdown-toggle" data-toggle = "dropdown">
+               Animals
+               <b class = "caret"></b>
+            </a>
+				
+            <ul class = "dropdown-menu">
+		<li><a href = "animals.html">Overview</a></li>
+               <li><a href = "fish.html">Fish</a></li>
+               <li><a href = "reptiles.html">Reptiles</a></li>
+               <li><a href = "mammals.html">Mammals</a></li>
+	       <li><a href = "invertebrates.html">Invertebrates</a></li>
+	   </ul>
+	<li class = "active">
+	<li><a href = "nutrition.html">Nutrition</a></li>
+	<li><a href = "products.html">Products</a></li>
+	<li><a href = "about.html">About us</a></li>
+            </ul>
+            
+         </li>
+      </ul>
+   </div>
+</nav>
+<div id="main">
+</div>
+<main>
+ <h2>Feeder Order Form</h2>
+ <h3>Order ahead and have your feeders ready for you when you walk in the store!</h3>
+ <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+  <label for="myFName">First Name: </label>
+  <input type="text" id="myFName" name="myFName" required="required">
+  <label for="myLName">Last Name: </label>
+  <input type="text" id="myLName" name="myFName" required="required">
+  <label for="phone">Phone:</label>
+  <input type="tel" name="phone" id="phone" maxlength="12">
+  <label for="time">Arrival Time:</label>
+  <input type="time" name="arrival" <required="required" id="arrival">
+  <label for="quantity">Quantity:</label>
+  <input type="number" min="1" max="14" name="quantity" required="required" id="quantity">
+  <label for="feedtype">Feeder Type:</label>
+  <input type="radio" name="feed" id="feedrat" value="RAT"> Rat(s)<br>
+  <input type="radio" name="feed" id="feedmouse" value="MOU"> Mice<br>
+  <input type="radio" name="feed" id="feedcricket" value="CRI"> Crickets<br>
+  <input type="radio" name="feed" id="feedroach" value="ROA"> Dubia Roaches<br>
+  <input type="radio" name="feed" id="feedguppy" value="GUP"> Guppies<br>
+  <input type="radio" name="feed" id="feedgoldfish" value="GOL"> Goldfish<br>
+  <label for="myComments">Comments:</label>
+  <textarea name="myComments" id="myComments" rows="2" cols="30"></textarea>
+  <input type="submit" name="submit" id="submit" value="Submit">
+ </form>
+
+</main>
+<footer>
+ Copyright &copy; 2019 Claws & Paws Pet Store<br>
+ <a href="mailto:josephwilliams@josephwilliams.com">josephwilliams@josephwilliams.com</a>
+</footer>
+</div>
+</html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
